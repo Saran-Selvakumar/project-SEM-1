@@ -1,0 +1,52 @@
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.footer
+{
+background-color: #24262b;
+
+}
+
+.container
+{
+max-width: 100%;
+background: #1D4350; 
+background: -webkit-linear-gradient(to right, #A43931, #1D4350);
+background: linear-gradient(to right, #A43931, #1D4350);
+margin: 0px;
+}
+
+ul
+{
+list-style: none ;
+color: rgb(14, 1, 1);
+}
+
+.row
+{
+display: flex;
+flex-wrap: wrap;
+}
+
+.footer-col
+{
+width: 25%;
+padding: 10px 60px;
+}
+
+.footer-col h4
+{
+font-size: 18px;
+color:aliceblue;
+margin-bottom:30px;
+}
+
+a
+{
+text-decoration: none;
+color: whitesmoke;
+}

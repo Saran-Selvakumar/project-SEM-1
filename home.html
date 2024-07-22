@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        body{
+            margin:0;
+            padding:0;
+        }
+        .nav img{
+            float: left;
+            width: 55px;
+            height: 55px;
+            background:rgb(174, 174, 174);
+            border-radius:50%;
+        }
+        h1{
+            padding-left:1em ;
+            padding-right: 30em;
+        }
+        .nav{
+            display:flex;
+            background: #1D4350; 
+background: -webkit-linear-gradient(to right, #A43931, #1D4350);
+background: linear-gradient(to right, #A43931, #1D4350);
+            overflow:hidden;
+        }
+        .nav a{
+            float:left;
+            color:white;
+            text-align: center;
+            padding: 10px 16px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .nav a:hover{
+            background-color:rgba(177, 177, 177, 0.644);
+            color:black;
+        }
+        .nav a.active{
+            background-color:rgba(177, 177, 177, 0.644);
+            color:black
+        }
+        .intro{
+            background-image: url(https://wallpapersmug.com/download/3840x2400/f12332/books.jpg);
+            background-size: cover;
+            height: 800px;
+        }
+        button{
+            padding-bottom: 10em;
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+            border:none;
+            font-size: 16px;
+            border-radius: 25px;
+        }
+        .row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+  box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.006),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.008),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.01),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.012),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.014),
+  100px 100px 80px rgba(0, 0, 0, 0.02)
+;
+ 
+}
+.checked {
+  color: orange;
+}
+.main{
+    background: #FFEFBA;
+background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  
+background: linear-gradient(to right, #FFFFFF, #FFEFBA); 
+}
+    </style>
+    <title>Da Vinci Books</title>
+</head>
+<body>
+    <div class="nav">
+          <img src="da vinci logo2.png" alt="logo">
+          <h1 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;font-size: 20px;color: white;padding-top: 16px;"><i>Da Vinci Books</i></h1>
+          <a class="active" href="home.html">Home</a>
+          <a href="signup.html">SignUp</a>
+        <a href="ranking.html">Ranking</a>
+        <a href="#bottom">Contact Us</a>
+        <a href="terms.html" style="font-size: 13px;">Terms and <br>Conditions</a>
+    </div>
+    <div class="intro">
+        <center><nav class="navbar navbar-light bg-light">
+            <form class="form-inline" style="padding-top:100px;">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="padding:10px 50px;border-radius: 25px;border: none;">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </nav></center>
+           <center><header style="font-size:60px;padding-top: 150px;color:white;">India's Biggest Book Blog</header></center>
+        <center><h2 style="font-size:20px;padding-bottom: 40px;color:white;">Join our newsletter and get our best articles about books and <br>reading. No charge. No spam. Only love.</h2></center>
+        <div class="button"><center><button>Subscribe</button></center></div>
+    </div>
+    <center><div class="main">
+        <h3 style="font-size: 36px;font-family: lora,serif;margin: 0;padding-bottom: 20px;padding-top: 20px;background: #3E5151; 
+        background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);
+        background: linear-gradient(to right, #DECBA4, #3E5151);">Latest Blog posts</h3>
+    <div class="row" style="padding-top:20px;">
+        <div class="column"data-aos="zoom-in">
+          <img src="book1.webp" alt="book1" style="width:50%;border-radius: 10%;box-shadow:
+          0.2px 0px 6.4px rgba(0, 0, 0, 0.034),
+          2.9px 0px 12.2px rgba(0, 0, 0, 0.042),
+          9.4px 0px 17.6px rgba(0, 0, 0, 0.046),
+          22px 0px 23.4px rgba(0, 0, 0, 0.05),
+          46.2px 0px 32.5px rgba(0, 0, 0, 0.058),
+          108px 0px 64px rgba(0, 0, 0, 0.08)
+        ;">
+          <h4 style="font-size: 20px;font-family: lora,sans-serif;">THE GODS HATE MIDNIGHT<BR>Author: Aabidah Hamdi<br><br>Rating : 4.0</h4>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+        </div>
+        <div class="column"data-aos="zoom-in">
+          <img src="book2.webp" alt="book2" style="width:50%;border-radius: 10%;box-shadow:
+          0.2px 0px 6.4px rgba(0, 0, 0, 0.034),
+          2.9px 0px 12.2px rgba(0, 0, 0, 0.042),
+          9.4px 0px 17.6px rgba(0, 0, 0, 0.046),
+          22px 0px 23.4px rgba(0, 0, 0, 0.05),
+          46.2px 0px 32.5px rgba(0, 0, 0, 0.058),
+          108px 0px 64px rgba(0, 0, 0, 0.08)
+        ;">
+          <h4 style="font-size: 20px;font-family: lora,sans-serif;">CRACK THE CODE<BR>Author: Patrick C.Harless<br><br>Rating : 3.5</h4>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star-half-o checked"></span>
+<span class="fa fa-star"></span>
+        </div>
+        <div class="column"data-aos="zoom-in">
+          <img src="book3.webp" alt="book3" style="width:50%;border-radius: 10%;box-shadow:
+          0.2px 0px 6.4px rgba(0, 0, 0, 0.034),
+          2.9px 0px 12.2px rgba(0, 0, 0, 0.042),
+          9.4px 0px 17.6px rgba(0, 0, 0, 0.046),
+          22px 0px 23.4px rgba(0, 0, 0, 0.05),
+          46.2px 0px 32.5px rgba(0, 0, 0, 0.058),
+          108px 0px 64px rgba(0, 0, 0, 0.08)
+        ;">
+          <h4 style="font-size: 20px;font-family: lora,sans-serif;">AISLYN<br>Author: Suzanne Walters<br><br>Rating : 3.0</h4>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+        </div>
+      </div>
+      <div class="row" style="padding-top: 20px;">
+        <div class="column"data-aos="zoom-in">
+          <a href="book17.html"><img src="book 4.jpg" alt="book1" style="width:50%;border-radius: 10%;box-shadow:
+            0.2px 0px 6.4px rgba(0, 0, 0, 0.034),
+            2.9px 0px 12.2px rgba(0, 0, 0, 0.042),
+            9.4px 0px 17.6px rgba(0, 0, 0, 0.046),
+            22px 0px 23.4px rgba(0, 0, 0, 0.05),
+            46.2px 0px 32.5px rgba(0, 0, 0, 0.058),
+            108px 0px 64px rgba(0, 0, 0, 0.08)
+          ;"></a>
+          <h4 style="font-size: 20px;font-family: lora,sans-serif;">GAME OF THRONES<br>Author: George RR Martin<br><br>Rating : 4.5</h4>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star-half-o checked"></span>
+        </div>
+        <div class="column"data-aos="zoom-in">
+          <a href="book5.html"><img src="book 6.jpg" alt="book2" style="width:50%;border-radius: 10%;box-shadow:
+            0.2px 0px 6.4px rgba(0, 0, 0, 0.034),
+            2.9px 0px 12.2px rgba(0, 0, 0, 0.042),
+            9.4px 0px 17.6px rgba(0, 0, 0, 0.046),
+            22px 0px 23.4px rgba(0, 0, 0, 0.05),
+            46.2px 0px 32.5px rgba(0, 0, 0, 0.058),
+            108px 0px 64px rgba(0, 0, 0, 0.08)
+          ;"></a>
+          <h4 style="font-size: 20px;font-family: lora,sans-serif;">The Psychology of Money<br>Author: Morgan Housel<br><br>Rating : 4.0</h4>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+        </div>
+        <div class="column"data-aos="zoom-in">
+          <img src="book5.jpg" alt="book3" style="width:50%;border-radius: 10%;box-shadow:
+          0.2px 0px 6.4px rgba(0, 0, 0, 0.034),
+          2.9px 0px 12.2px rgba(0, 0, 0, 0.042),
+          9.4px 0px 17.6px rgba(0, 0, 0, 0.046),
+          22px 0px 23.4px rgba(0, 0, 0, 0.05),
+          46.2px 0px 32.5px rgba(0, 0, 0, 0.058),
+          108px 0px 64px rgba(0, 0, 0, 0.08)
+        ;">
+          <h4 style="font-size: 20px;font-family: lora,sans-serif;">THE PAST IS RISING<br>Author: Kathryn Bywaters<br><br>Rating : 3.5</h4>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star-half-o checked"></span>
+<span class="fa fa-star"></span>
+        </div>
+      </div>
+      <h3 style="font-size: 36px;font-family: lora,serif;margin: 0;padding-bottom: 20px;padding-top: 20px;background: #FC5C7D; 
+      background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D); 
+      background: linear-gradient(to right, #6A82FB, #FC5C7D);">Romance Novels</h3>
+      <div class="row" style="padding-top: 20px;">
+        <div class="column"data-aos="zoom-in">
+          <a href="book9.html"><img src="book9.webp" alt="book1" style="width:50%;border-radius: 10%;"></a>
+          <h4 style="font-size: 20px;font-family: lora,sans-serif;">YOU'VE REACHED SAM<br>Author: Dustin Thao<br><br>Rating : 4.5</h4>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star-half-o checked"></span>
+        </div>
+        <div class="column"data-aos="zoom-in">
+          <a href="book8.html"><img src="book8.jpeg" alt="book2" style="width:50%;border-radius: 10%;box-shadow:
+            0.2px 0px 6.4px rgba(0, 0, 0, 0.034),
+            2.9px 0px 12.2px rgba(0, 0, 0, 0.042),
+            9.4px 0px 17.6px rgba(0, 0, 0, 0.046),
+            22px 0px 23.4px rgba(0, 0, 0, 0.05),
+            46.2px 0px 32.5px rgba(0, 0, 0, 0.058),
+            108px 0px 64px rgba(0, 0, 0, 0.08)
+          ;"></a>
+          <h4 style="font-size: 20px;font-family: lora,sans-serif;">I THINK I LOVE YOU<br>Author: Auriane Desombre<br><br>Rating : 3.0</h4>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+        </div>
+        <div class="column"data-aos="zoom-in">
+          <a href="book7.html"><img src="book7.jpg" alt="book3" style="width:50%;border-radius: 10%;box-shadow:
+            0.2px 0px 6.4px rgba(0, 0, 0, 0.034),
+            2.9px 0px 12.2px rgba(0, 0, 0, 0.042),
+            9.4px 0px 17.6px rgba(0, 0, 0, 0.046),
+            22px 0px 23.4px rgba(0, 0, 0, 0.05),
+            46.2px 0px 32.5px rgba(0, 0, 0, 0.058),
+            108px 0px 64px rgba(0, 0, 0, 0.08)
+          ;"></a>
+          <h4 style="font-size: 20px;font-family: lora,sans-serif;">THE HATING GAME<br>Author: Sally Thorne<br><br>Rating : 3.5</h4>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star-half-o checked"></span>
+<span class="fa fa-star"></span>
+        </div>
+      </div>
+      <h3 style="font-size: 36px;font-family: lora,serif;margin: 0;padding-bottom: 20px;padding-top:10px;background: #333333; 
+      background: -webkit-linear-gradient(to right, #dd1818, #333333);
+      background: linear-gradient(to right, #dd1818, #333333);">Horrer/Thriller Novels</h3>
+      <div class="row" style="padding-top: 20px;">
+        <div class="column"data-aos="zoom-in">
+          <a href="book10.html"><img src="book10.jpg" alt="book1" style="width:50%;border-radius: 10%;box-shadow:
+            0.2px 0px 6.4px rgba(0, 0, 0, 0.034),
+            2.9px 0px 12.2px rgba(0, 0, 0, 0.042),
+            9.4px 0px 17.6px rgba(0, 0, 0, 0.046),
+            22px 0px 23.4px rgba(0, 0, 0, 0.05),
+            46.2px 0px 32.5px rgba(0, 0, 0, 0.058),
+            108px 0px 64px rgba(0, 0, 0, 0.08)
+          ;"></a>
+          <h4 style="font-size: 20px;font-family: lora,sans-serif;">THE COUPLE NEXT DOOR<br>Author: Shari Lapena<br><br>Rating : 3.5</h4>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star-half-o checked"></span>
+<span class="fa fa-star"></span>
+        </div>
+        <div class="column" data-aos="zoom-in">
+          <a href="book11.html"><img src="book11.jpg" alt="book2" style="width:50%;border-radius: 10%;box-shadow:
+            0.2px 0px 6.4px rgba(0, 0, 0, 0.034),
+            2.9px 0px 12.2px rgba(0, 0, 0, 0.042),
+            9.4px 0px 17.6px rgba(0, 0, 0, 0.046),
+            22px 0px 23.4px rgba(0, 0, 0, 0.05),
+            46.2px 0px 32.5px rgba(0, 0, 0, 0.058),
+            108px 0px 64px rgba(0, 0, 0, 0.08)
+          ;"></a>
+          <h4 style="font-size: 20px;font-family: lora,sans-serif;">STEPHEN KING | PET SEMATARY<br>Author:Stephen King<br><br>Rating : 3.0</h4>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+        </div>
+        <div class="column" data-aos="zoom-in">
+          <a href="book12.html"><img src="book12.jpg" alt="book3" style="width:50%;border-radius: 10%;box-shadow:
+            0.2px 0px 6.4px rgba(0, 0, 0, 0.034),
+            2.9px 0px 12.2px rgba(0, 0, 0, 0.042),
+            9.4px 0px 17.6px rgba(0, 0, 0, 0.046),
+            22px 0px 23.4px rgba(0, 0, 0, 0.05),
+            46.2px 0px 32.5px rgba(0, 0, 0, 0.058),
+            108px 0px 64px rgba(0, 0, 0, 0.08)
+          ;"></a>
+          <h4 style="font-size: 20px;font-family: lora,sans-serif;">DRACULA<br>Author:Bram Stoker<br><br>Rating : 4.5</h4>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star-half-o checked"></span>
+        </div>
+      </div>
+      <h3 style="font-size: 36px;font-family: lora,serif;margin: 0;padding-bottom: 20px;padding-top:10px;background: #2980B9;  
+      background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); 
+      background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);">Chick-Lit Novels</h3>
+      <div class="row" style="padding-top: 20px;">
+        <div class="column" data-aos="zoom-in">
+          <a href="book13.html"><img src="book 13.jpg" alt="book1" style="width:50%;border-radius: 10%;box-shadow:
+            0.2px 0px 6.4px rgba(0, 0, 0, 0.034),
+            2.9px 0px 12.2px rgba(0, 0, 0, 0.042),
+            9.4px 0px 17.6px rgba(0, 0, 0, 0.046),
+            22px 0px 23.4px rgba(0, 0, 0, 0.05),
+            46.2px 0px 32.5px rgba(0, 0, 0, 0.058),
+            108px 0px 64px rgba(0, 0, 0, 0.08)
+          ;"></a>
+          <h4 style="font-size: 20px;font-family: lora,sans-serif;">Mad About you<br>Author: Mhairi McFariane<br><br>Rating : 4.0</h4>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+        </div>
+        <div class="column"data-aos="zoom-in">
+          <a href="book14.html"><img src="book14.jpg" alt="book2" style="width:50%;border-radius: 10%;box-shadow:
+            0.2px 0px 6.4px rgba(0, 0, 0, 0.034),
+            2.9px 0px 12.2px rgba(0, 0, 0, 0.042),
+            9.4px 0px 17.6px rgba(0, 0, 0, 0.046),
+            22px 0px 23.4px rgba(0, 0, 0, 0.05),
+            46.2px 0px 32.5px rgba(0, 0, 0, 0.058),
+            108px 0px 64px rgba(0, 0, 0, 0.08)
+          ;"></a>
+          <h4 style="font-size: 20px;font-family: lora,sans-serif;">THE TEXT GOD<br>Author: Whitney Dineen & Melanie Summers<br><br>Rating : 3.5</h4>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star-half-o checked"></span>
+<span class="fa fa-star"></span>
+        </div>
+        <div class="column"data-aos="zoom-in">
+          <a href="book15.html"><img src="book 15.jpg" alt="book3" style="width:50%;border-radius: 10%;box-shadow:
+            0.2px 0px 6.4px rgba(0, 0, 0, 0.034),
+            2.9px 0px 12.2px rgba(0, 0, 0, 0.042),
+            9.4px 0px 17.6px rgba(0, 0, 0, 0.046),
+            22px 0px 23.4px rgba(0, 0, 0, 0.05),
+            46.2px 0px 32.5px rgba(0, 0, 0, 0.058),
+            108px 0px 64px rgba(0, 0, 0, 0.08)
+          ;"></a>
+          <h4 style="font-size: 20px;font-family: lora,sans-serif;">The Bookish Life of Nina Hill<br>Author: Abbi Waxman<br><br>Rating : 4.5</h4>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star-half-o checked"></span>
+        </div>
+      </div>
+      <h3 style="font-size: 36px;font-family: lora,serif;margin: 0;padding-bottom: 20px;padding-top:10px;background: #C02425; 
+      background: -webkit-linear-gradient(to right, #F0CB35, #C02425);  
+      background: linear-gradient(to right, #F0CB35, #C02425); ">Fantasy Novels</h3>
+      <div class="row" style="padding-top: 20px;">
+        <div class="column"data-aos="zoom-in">
+          <a href="book16.html"><img src="kingdom of fantasy.jpg" alt="book1" style="width:50%;border-radius: 10%;box-shadow:
+            0.2px 0px 6.4px rgba(0, 0, 0, 0.034),
+            2.9px 0px 12.2px rgba(0, 0, 0, 0.042),
+            9.4px 0px 17.6px rgba(0, 0, 0, 0.046),
+            22px 0px 23.4px rgba(0, 0, 0, 0.05),
+            46.2px 0px 32.5px rgba(0, 0, 0, 0.058),
+            108px 0px 64px rgba(0, 0, 0, 0.08)
+          ;"></a>
+          <h4 style="font-size: 20px;font-family: lora,sans-serif;"><br>THE KINGDOM OF FANTASY<br>Author: Geronimo Stilton <br><br>Rating : 4.5</h4>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star-half-o checked"></span>
+        </div>
+        <div class="column"data-aos="zoom-in">
+          <a href="book18.html"><img src="HarryPotter2.jpg" alt="book2" style="width:50%;border-radius: 10%;box-shadow:
+            0.2px 0px 6.4px rgba(0, 0, 0, 0.034),
+            2.9px 0px 12.2px rgba(0, 0, 0, 0.042),
+            9.4px 0px 17.6px rgba(0, 0, 0, 0.046),
+            22px 0px 23.4px rgba(0, 0, 0, 0.05),
+            46.2px 0px 32.5px rgba(0, 0, 0, 0.058),
+            108px 0px 64px rgba(0, 0, 0, 0.08)
+          ;"></a>
+          <h4 style="font-size: 20px;font-family: lora,sans-serif;"><br>HARRY POTTER AND THE CURSED CHILD | part one and two<br>Author: J.K.ROWLING<br><br>Rating : 5.0</h4>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+        </div>
+        <div class="column"data-aos="zoom-in">
+          <a href="book17.html"><img src="GOT george rr martin.jpg" alt="book3" style="width:50%;border-radius: 10%;box-shadow:
+            0.2px 0px 6.4px rgba(0, 0, 0, 0.034),
+            2.9px 0px 12.2px rgba(0, 0, 0, 0.042),
+            9.4px 0px 17.6px rgba(0, 0, 0, 0.046),
+            22px 0px 23.4px rgba(0, 0, 0, 0.05),
+            46.2px 0px 32.5px rgba(0, 0, 0, 0.058),
+            108px 0px 64px rgba(0, 0, 0, 0.08)
+          ;"></a>
+          <h4 style="font-size: 20px;font-family: lora,sans-serif;">GAME OF THRONES<br>Author: GEORGE RR MARTIN<br><br>Rating : 4.5</h4>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star-half-o checked"></span>
+        </div>
+      </div>
+      <h3 style="font-size: 36px;font-family: lora,serif;margin: 0;padding-bottom: 20px;padding-top:10px;background: #5614B0; 
+      background: -webkit-linear-gradient(to right, #DBD65C, #5614B0);  
+      background: linear-gradient(to right, #DBD65C, #5614B0);">General Fiction Books</h3>
+      <div class="row" style="padding-top: 20px;">
+        <div class="column"data-aos="zoom-in">
+          <a href="book19.html"><img src="book16.jpg" alt="book1" style="width:50%;border-radius: 10%;box-shadow:
+            0.2px 0px 6.4px rgba(0, 0, 0, 0.034),
+            2.9px 0px 12.2px rgba(0, 0, 0, 0.042),
+            9.4px 0px 17.6px rgba(0, 0, 0, 0.046),
+            22px 0px 23.4px rgba(0, 0, 0, 0.05),
+            46.2px 0px 32.5px rgba(0, 0, 0, 0.058),
+            108px 0px 64px rgba(0, 0, 0, 0.08)
+          ;"></a>
+          <h4 style="font-size: 20px;font-family: lora,sans-serif;">A Thousand Kisses Deep<br>Author: Novoneel Chakraborty<br><br>Rating : 5.0</h4>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+        </div>
+        <div class="column"data-aos="zoom-in">
+          <a href="book20.html"><img src="book17.jpg" alt="book2" style="width:50%;border-radius: 10%;border-radius: 10%;box-shadow:
+            0.2px 0px 6.4px rgba(0, 0, 0, 0.034),
+            2.9px 0px 12.2px rgba(0, 0, 0, 0.042),
+            9.4px 0px 17.6px rgba(0, 0, 0, 0.046),
+            22px 0px 23.4px rgba(0, 0, 0, 0.05),
+            46.2px 0px 32.5px rgba(0, 0, 0, 0.058),
+            108px 0px 64px rgba(0, 0, 0, 0.08)
+          ;"></a>
+          <h4 style="font-size: 20px;font-family: lora,sans-serif;">I Remember Abbu<br>Author: Humayun Azad<br><br>Rating : 4.0</h4>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+        </div>
+        <div class="column"data-aos="zoom-in">
+          <a href="book21.html"><img src="book18.jpg" alt="book3" style="width:50%;border-radius: 10%;border-radius: 10%;box-shadow:
+            0.2px 0px 6.4px rgba(0, 0, 0, 0.034),
+            2.9px 0px 12.2px rgba(0, 0, 0, 0.042),
+            9.4px 0px 17.6px rgba(0, 0, 0, 0.046),
+            22px 0px 23.4px rgba(0, 0, 0, 0.05),
+            46.2px 0px 32.5px rgba(0, 0, 0, 0.058),
+            108px 0px 64px rgba(0, 0, 0, 0.08)
+          ;"></a>
+          <h4 style="font-size: 20px;font-family: lora,sans-serif;">Divas of Pegasus Bar | Night Game<br>Author: Anuj Tikku<br><br>Rating : 3.5</h4>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star-half-o checked"></span>
+<span class="fa fa-star"></span>
+        </div>
+      </div>
+    </div></center>
+    <footer class="footer" data-aos="zoom-in">
+      <div class="container">
+      <div class="row">
+      <div class="footer-col">
+      <h4><a href="" style="color: black;">SERVICES</a><br></h4>
+      <li><a href=" ">BOOKS REVIEWS </a></li>
+      <li><a href="">BOOKS RECOMMENDATION</a></li>
+      </ul>
+      </div>
+      <div class="footer-col">
+      <h4 style="color: black;">CONTACT US</h4>
+      <ul>
+      <li>dial<a href="tel:+916379974470">🌐6379974470</a></li>
+      <li><a href="peakyblinders@gmail.com">📬peackyblinders@gmail.com</a></li>
+      </ul>
+      </div>
+      <div class="footer-col">
+      <h4 style="color: black;">ONLINE SHOPPING</h4>
+      <ul>
+      <li><a href="">AMAZON</a></li>
+      <li><a href="">FLIPKART</a></li>
+      <li><a href="">KUKU FM</a></li>
+      </ul>
+      </div>
+      <div class="footer-col">
+      <h4 style="color: black;">FOLLOW US</h4>
+      <div class="social-media-links">
+      <ul>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome.min.css">
+      <li><a href="https://www.facebook.com"><i class="fa fa-facebook-f"> facebook</i></a></li>
+      <li><a href="www.twitter.com"><i class="fa fa-twitter"> twitter</i></a></li>
+      <li><a href="https://www.instagram.com"><i class="fa fa-instagram"> instagram</i></a></li>
+      <li><a href="https://www.linkedin.com"><i class="fa fa-linkedin"> linkedin</i></a></li>
+      </ul>
+      </div>
+      </div>
+      </div>
+      </div>
+      </footer>
+      </div>
+      </div>
+      <a name="bottom"id="bottom"></a>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</html>

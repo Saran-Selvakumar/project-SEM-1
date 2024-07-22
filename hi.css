@@ -1,0 +1,20 @@
+.hi{
+    border:5px solid black;
+    padding: 50px;
+    height:440px;
+    width:400px;
+    background-color:rgba(211, 211, 211, 0.329);
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+fieldset{
+    background-color: rgba(0, 0, 0, 0.378);
+}
+[type="submit"]{
+color:white;
+background-color:rgba(0, 0, 0, 0.711);
+background-size: 40%;
+padding: 10px 15px;
+border-radius: 20px;
+}
